@@ -36,18 +36,28 @@ with open(csv_path) as csvfile:
         total_change=rr[i]+total_change
         i=+1 
     
-    average_change=total_change/l
+    average_change=total_change/(l-1)
     print(average_change)
     print(c)   
+change_name=mg[1:]
 #zipping the Lists of months and changes in a dictionary
-roster = dict(zip(mg, c))
-print(roster)
+#roster = dict(zip(mg, c))
+#print(roster)
 #getting the max and min values for the profit and loss and corresponding months
-key_max = max(roster.keys(), key=(lambda k: roster[k]))
-key_min = min(roster.keys(), key=(lambda k: roster[k]))
+#max = max(roster.keys(), key=(lambda k: roster[k]))
+#min = min(roster.keys(), key=(lambda k: roster[k]))
+max_value=max(c)
+min_value=min(c)
+print(max_value)
+print(min_value)
+print(change_name)
 
-print('Maximum Value: ',roster[key_max])
-print('Minimum Value: ',roster[key_min])
+#getting index value for the profit or loss changes with respect to months list
+max_month=change_name[(c.index(max_value))]
+min_month=change_name[(c.index(min_value))]
+print(max_month)
+print(min_month)
+
 
 
 
@@ -56,7 +66,7 @@ output_file = os.path.join("analysis","output.txt")
 
 
 # open the output file, create a header row, and then write the zipped object to the csv
-with open(output_file, "w", newline='') as datafile:
+with open(output_file, "w") as datafile:
     writer = csv.writer(datafile)
 
     writer.writerow("Financial Analysis")             
