@@ -10,19 +10,19 @@ Hard work and burning some mid night oil is all I needed to Master the challenge
 
 
 
-### getting the Github all set!
+### Getting the Github all set!
 
 
 * Created a new repository for this project called `python-challenge`. 
 
-* Cloned the new repository to your computer.
+* Cloned the new repository to my computer.
 
-* Inside your local git repository, created a directory for each Python Challenge. Used folder names corresponding to the challenges: **PyBank** and  **PyPoll**.
+* Inside my local git repository, created a directory for each Python Challenge. Used folder names corresponding to the challenges: **PyBank** and  **PyPoll**.
 
 * Inside of each folder  added the following:
 
   * A new file called `main.py`. This will be the main script to run for each analysis.
-  * A "Resources" folder that contains the CSV files you used. Made sure your script has the correct path to the CSV file.
+  * A "Resources" folder that contains the CSV files you used. Made sure my script has the correct path to the CSV file.
   * An "analysis" folder that contains my text file that has the results from the analysis.
 
 * Pushed the above changes to GitHub.
