@@ -63,7 +63,7 @@ Greatest decrease in Profits: Sep-2013 ($-2196167)
 
 * In this challenge, I was tasked with helping a small, rural town modernize its vote counting process.
 
-*  A set of poll data was provided [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. I created a Python script that analyzes the votes and calculates each of the following:
+*  A set of poll data was provided [election_data.csv](pypoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. I created a Python script that analyzes the votes and calculates each of the following:
 
   * The total number of votes cast
 
