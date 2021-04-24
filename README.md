@@ -43,21 +43,20 @@ Hard work and burning some mid night oil is all I needed to Master the challenge
 
   *  5)The greatest decrease in losses (date and amount) over the entire period
 
-* As an example, your analysis should look similar to the one below:
-
-  ```text
-  Financial Analysis
-  ----------------------------
-  Total Months: 86
-  Total: $38382578
-  Average  Change: $-2315.12
-  Greatest Increase in Profits: Feb-2012 ($1926159)
-  Greatest Decrease in Profits: Sep-2013 ($-2196167)
-  ```
 
 * In addition, a final script  printed  the analysis to the terminal and exported a text file with the results.
-* Results
-* [Python Script](pyBank/main.py)
+* RESULTS!!!!
+
+*  [Python Script](pyBank/main.py)
+```text
+  Financial Analysis
+-----------------------------------------------------------
+Total Months 86
+-----------------------------------------------------------
+Total  $38382578
+Average Change $-2315.1176470588234
+Greatest Increase in Profits: Feb-2012 ($1926159)
+Greatest decrease in Profits: Sep-2013 ($-2196167)
 * 
 
 ## PyPoll
