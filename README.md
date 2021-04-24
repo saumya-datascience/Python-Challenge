@@ -57,8 +57,8 @@ Total  $38382578
 Average Change $-2315.1176470588234
 Greatest Increase in Profits: Feb-2012 ($1926159)
 Greatest decrease in Profits: Sep-2013 ($-2196167)
-* 
 
+* 
 ## PyPoll
 
 * In this challenge, I was tasked with helping a small, rural town modernize its vote counting process.
