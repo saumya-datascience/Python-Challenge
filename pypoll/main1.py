@@ -30,12 +30,17 @@ for candidate in set(cand_name):
 
 
 #printing Total votes
-print(f'     The Elections Results          ')
-print(f'-----------------------------------------------------------')
-print(f'Total Votes are  {total_votes}')
-print(f'-----------------------------------------------------------')
+output_1 = (
+    f"\nThe Election Results\n"
+    f"-----------------------------------------------------------\n"
+    f"Total Votes are  {total_votes}\n"
+    f"-----------------------------------------------------------\n")
+#print(f'     The Elections Results          ')
+#print(f'-----------------------------------------------------------')
+#print(f'Total Votes are  {total_votes}')
+#print(f'-----------------------------------------------------------')
 
-
+l=0
 # loop to get the total number of votes, percentage for each candidate
 l=len(candidate_list)
 percent_value=[]
@@ -49,15 +54,25 @@ for y in range(l):
                 count+=1
     count_tot_vote.append(count)
     percent_value.append((count/total_votes)*100)
-    print(f'Mr. {candidate_list[y]} got vote percentage: {percent_value[y]} with a total vote_count: {count_tot_vote[y]} ')
+    output_2 = (
+    f" Mr. {candidate_list[y]} got vote percentage: {percent_value[y]} with a total vote_count: {count_tot_vote[y]}\n")
 
 # finally, finding the winner and printing it
 Max_vote= max(count_tot_vote)
 winner=candidate_list[(count_tot_vote.index(Max_vote))]
-print(f'-----------------------------------------------------------')
-print(f'And the Winner is....DrumRoll.......... Mr.{winner} !!!!!!!!')
-print(f'-----------------------------------------------------------')
+output_3= (
+f"-----------------------------------------------------------\n"
+f"And the Winner is....DrumRoll.......... Mr.{winner} !!!!!!!!\n"
+f"-----------------------------------------------------------\n")
 
-csv_outpath=os.path.join("analysis",output.txt)
-with open(csv_output,)
+# Print all of the results (to terminal)
+print(output_1)
+print(output_2)
+print(output_3)
 
+# Save the results to analysis text file
+output_path=os.path.join("analysis","output.txt")
+with open(output_path, "a") as txt_file:
+    txt_file.write(output_1)
+    txt_file.write(output_2)
+    txt_file.write(output_3)
