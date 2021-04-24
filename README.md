@@ -45,7 +45,7 @@ Hard work and burning some mid night oil is all I needed to Master the challenge
 
 
 * In addition, a final script  printed  the analysis to the terminal and exported a text file with the results.
-* RESULTS!!!!
+* RESULTS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 *  [Python Script](pyBank/main.py)
 ```text
@@ -59,6 +59,7 @@ Greatest Increase in Profits: Feb-2012 ($1926159)
 Greatest decrease in Profits: Sep-2013 ($-2196167)
 
 ```
+
 ## PyPoll
 
 * In this challenge, I was tasked with helping a small, rural town modernize its vote counting process.
@@ -75,8 +76,8 @@ Greatest decrease in Profits: Sep-2013 ($-2196167)
 
   * The winner of the election based on popular vote.
 
-* As an example, your analysis should look similar to the one below:
-
+* RESULTS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[Python script](pypoll/main1.py)
 ```text
   The Election Results
 -----------------------------------------------------------
@@ -85,11 +86,6 @@ Total Votes are  3521001
  Mr. Khan got vote percentage: 63.00001050837531 with a total vote_count: 2218231
 -----------------------------------------------------------
 And the Winner is....DrumRoll.......... Mr.Khan !!!!!!!!
------------------------------------------------------------```text
- 
-  ```
-
-* In addition, my final script both printed the analysis to the terminal and exported a text file with the results.)
-* Results
-[Python script](pypoll/main1.py)
+-----------------------------------------------------------
+```
 
