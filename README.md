@@ -58,7 +58,7 @@ Average Change $-2315.1176470588234
 Greatest Increase in Profits: Feb-2012 ($1926159)
 Greatest decrease in Profits: Sep-2013 ($-2196167)
 
-* 
+```
 ## PyPoll
 
 * In this challenge, I was tasked with helping a small, rural town modernize its vote counting process.
@@ -78,17 +78,7 @@ Greatest decrease in Profits: Sep-2013 ($-2196167)
 * As an example, your analysis should look similar to the one below:
 
   ```text
-  Election Results
-  -------------------------
-  Total Votes: 3521001
-  -------------------------
-  Khan: 63.000% (2218231)
-  Correy: 20.000% (704200)
-  Li: 14.000% (492940)
-  O'Tooley: 3.000% (105630)
-  -------------------------
-  Winner: Khan
-  -------------------------
+ 
   ```
 
 * In addition, my final script both printed the analysis to the terminal and exported a text file with the results.)
