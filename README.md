@@ -29,7 +29,7 @@ Hard work and burning some mid night oil is all I needed to Master the challenge
 
 ## PyBank
 
-* In this challenge, I was tasked with creating a Python script for analyzing the financial records of the company. A set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv) was provided. The dataset is composed of two columns: `Date` and `Profit/Losses`. 
+* In this challenge, I was tasked with creating a Python script for analyzing the financial records of the company. A set of financial data called [budget_data.csv](pyBank/Resources/budget_data.csv) was provided. The dataset is composed of two columns: `Date` and `Profit/Losses`. 
 * Job done are as follows
 *  A Python script that analyzes the records to calculate each of the following:
 
